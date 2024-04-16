@@ -91,7 +91,7 @@ body{
     }
 
     #menue-icon{
-      font-weight: 3.5rem;
+      font-weight:3.5rem;
       color: $text-color;
     }
 
@@ -588,9 +588,11 @@ span{
   .about {
     .about-img {
       img {
+
         width: 50vw;
-        height: 30vh;
-        margin-top: -5rem;
+        height: 40vh;
+        margin-top: 3rem;
+
       }
 
 
@@ -612,11 +614,23 @@ span{
     .about-img {
       img {
         width: 55vw;
-        height: 25vh;
-        margin-top: -5rem;
+        height: 35vh;
+        margin-top: 3rem;
+        border-radius: 6rem;
       }
 
 
+    }
+    .about-content{
+      h2{
+        font-size: 3.5rem;
+      }
+      h3{
+        font-size: 2rem;
+      }
+      p{
+        font-size: 1.5rem;
+      }
     }
   }
 
@@ -629,32 +643,59 @@ span{
       }
     }
   }
+  .project-container{
+    .project-box{
+      img{
+        height: 30vh;
+      }
+
+    }
+  }
+  .home {
+    .home-content {
+      h3 {
+        font-size: 2rem;
+      }
+
+      h1 {
+        font-size: 2.5rem;
+      }
+      p{
+        font-size: 1.5rem;
+      }
+    }
+  }
+  .skills{
+    h2{
+      font-size:4rem !important;
+    }
+  }
+  .project{
+    h2{
+      font-size: 4rem;
+    }
+  }
+  .contact{
+    h2{
+      font-size: 4rem;
+    }
+  }
 }
 
-@media only screen and (max-width: 400px){
+
+@media only screen and (max-width: 300px){
 
   .about {
     .about-img {
       img {
         width: 50vw;
         height: 30vh;
-        margin-top: 5rem;
+
       }
 
 
     }
   }
 
-  .project-container{
-    .project-box{
-      img{
-        height: 25vh;
-      }
-
-    }
-  }
-  .skills{
-    padding: 5rem;
-  }
 
 }

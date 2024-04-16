@@ -463,8 +463,8 @@ span {
 @media only screen and (max-width: 630px) {
   .about .about-img img {
     width: 50vw;
-    height: 30vh;
-    margin-top: -5rem;
+    height: 40vh;
+    margin-top: 3rem;
   }
   .project-container {
     grid-template-columns: 1fr;
@@ -476,24 +476,48 @@ span {
 @media only screen and (max-width: 500px) {
   .about .about-img img {
     width: 55vw;
-    height: 25vh;
-    margin-top: -5rem;
+    height: 35vh;
+    margin-top: 3rem;
+    border-radius: 6rem;
+  }
+  .about .about-content h2 {
+    font-size: 3.5rem;
+  }
+  .about .about-content h3 {
+    font-size: 2rem;
+  }
+  .about .about-content p {
+    font-size: 1.5rem;
   }
   .contact form .input-box input {
     width: 100%;
   }
+  .project-container .project-box img {
+    height: 30vh;
+  }
+  .home .home-content h3 {
+    font-size: 2rem;
+  }
+  .home .home-content h1 {
+    font-size: 2.5rem;
+  }
+  .home .home-content p {
+    font-size: 1.5rem;
+  }
+  .skills h2 {
+    font-size: 4rem !important;
+  }
+  .project h2 {
+    font-size: 4rem;
+  }
+  .contact h2 {
+    font-size: 4rem;
+  }
 }
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 300px) {
   .about .about-img img {
     width: 50vw;
     height: 30vh;
-    margin-top: 5rem;
-  }
-  .project-container .project-box img {
-    height: 25vh;
-  }
-  .skills {
-    padding: 5rem;
   }
 }
 
